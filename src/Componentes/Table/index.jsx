@@ -19,7 +19,7 @@ export default function StickyHeadTable(props) {
     },
     {
       id: "name",
-      label: "Name",
+      label: "Dashboard",
       width: 170,
     },
     {
