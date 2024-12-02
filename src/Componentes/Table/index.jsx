@@ -41,7 +41,7 @@ export default function StickyHeadTable(props) {
     const search = props?.search;
 
     const filteredData = data.filter((dashboard) => {
-      return dashboard.name.toLowerCase().includes(search);
+      return dashboard.name.toLowerCase().includes(search.toLowerCase());
     });
 
     return filteredData.map((dashboard, idx) =>
